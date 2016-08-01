@@ -1,4 +1,4 @@
-package org.music;
+package main.java.org.music;
 
 import javax.sound.midi.*;
 import java.util.Arrays;
@@ -18,8 +18,8 @@ public class synth {
             synthesizer.loadInstrument(instruments[90]);
 
             List<Integer> d = Arrays.asList(62, 66, 69);
-            List<Integer> a = Arrays.asList(57, 60, 64);
-            List<Integer> g = Arrays.asList(56, 59, 62);
+            List<Integer> a = Arrays.asList(57, 61, 64);
+            List<Integer> g = Arrays.asList(55, 59, 62);
             List<List<Integer>> chords = Arrays.asList(d, d, a, g, d, d);
 
             List<Integer> duration = Arrays.asList(1, 3, 2, 2, 1, 3);
